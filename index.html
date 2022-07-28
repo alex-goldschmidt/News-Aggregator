@@ -18,28 +18,70 @@
 
     <div class="container2">
         <div class="blocks">
+            <div class="RussiaUkraine">
             <figure class="category">
-                <img src="categories/Russia Ukraine.png" alt="m1">
+                <img class="image" src="images/Russia Ukraine.png" alt="m1">
                 <figcaption>Russia & Ukraine</figcaption>
             </figure>
+            </div>
+           
+            <div class="BigTech">
             <figure class="category">
-                <img src="categories/Big tech.png" alt="m1">
+                <img class="image" src="images/Big tech.png" alt="m1">
                 <figcaption>Big Tech</figcaption>
             </figure>
+            </div>
+            
+            <div class="Economy">
             <figure class="category">
-                <img src="categories/Economy.png" alt="m1">
+                <img class="image" src="images/Economy.png" alt="m1">
                 <figcaption>Economy</figcaption>
             </figure>
+            </div>
+
+            <div class="Congress">
             <figure class="category">
-                <img src="categories/Congress.png" alt="m1">
+                <img class="image" src="images/Congress.png" alt="m1">
                 <figcaption>Congress</figcaption>
             </figure>
+            </div>
+
+            <div class="China">
             <figure class="category">
-                <img src="categories/China.png" alt="m1">
+                <img class="image" src="images/China.png" alt="m1">
                 <figcaption>China</figcaption>
             </figure> 
+            </div>
         </div>
     </div>
     
+ <script>
+    const categories = document.querySelectorAll(".category")
+    const RussiaUkraine = document.querySelector(".RussiaUkraine")
+    const BigTech = document.querySelector(".BigTech")
+    const Economy = document.querySelector(".Economy")
+    const Congress = document.querySelector(".Congress")
+    const China = document.querySelector(".China")
+
+    RussiaUkraine.onclick = function () {
+        location.href = "pages/RussiaUkraine.html";
+    };
+
+    BigTech.onclick = function () {
+        location.href = "pages/BigTech.html";
+    };
+
+    Economy.onclick = function () {
+        location.href = "pages/Economy.html";
+    };
+
+    Congress.onclick = function () {
+        location.href = "pages/Congress.html";
+    };
+
+    China.onclick = function () {
+        location.href = "pages/China.html";
+    };
+ </script>   
 </body>
 </html>
