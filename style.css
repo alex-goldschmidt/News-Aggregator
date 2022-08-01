@@ -20,7 +20,7 @@
 .title {
     display: flex;
     justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-weight: 400;
     font-size: 60px;
     color: white;
@@ -28,7 +28,7 @@
 
 .motto {
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: white;
     display: flex;
     justify-content: center;
